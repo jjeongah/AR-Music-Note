@@ -1,4 +1,4 @@
-# Music-Note
+# AR-Music-Note
 This project is for SK Planet Industry Cooperation Project (2020.3~ 2020.7)
 
 ## A Brief Overview
