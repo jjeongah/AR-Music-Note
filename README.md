@@ -24,7 +24,6 @@ This project is for SK Planet Industry Cooperation Project (2020.4~ 2020.8)
 (5) When the user arrives at the festival location, the game stops and the guidance ends.
 
 ## Project Schedule
-#### History
 ## History
 | Period                          | Tasks                 |
 |--------------------------------|----------------------|
