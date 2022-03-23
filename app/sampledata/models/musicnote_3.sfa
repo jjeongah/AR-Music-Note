@@ -1,0 +1,76 @@
+{
+   materials: [
+      {
+         name: "Mat",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "280590337",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      file: "sampledata/models/musicnote_3.fbx",
+      name: "musicnote_3",
+      scale: 0.030863000000000002,
+      suggested_collision: {
+         center: {
+            x: 0,
+            y: 0,
+            z: 0,
+         },
+         size: {
+            x: 1,
+            y: 1,
+            z: 1,
+         },
+         type: "Box",
+      },
+   },
+   samplers: [
+      {
+         file: "G:\\SK_planet\\musicnote\\MusicNote\\app\\sampledata\\models\\musicnote_3.fbm/280590337.jpg",
+         name: "280590337",
+         pipeline_name: "G:\\SK_planet\\musicnote\\MusicNote\\app\\sampledata\\models\\musicnote_3.fbm/280590337.jpg",
+      },
+   ],
+   version: "0.51:1",
+}

@@ -1,0 +1,109 @@
+{
+   materials: [
+      {
+         name: "material_12___7218",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  0.92156899999999997,
+                  0.231373,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "material_14___7218",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  0.34117599999999998,
+                  0.13333300000000001,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "Orientation",
+      ],
+      file: "sampledata/models/red_arrow.fbx",
+      name: "red_arrow",
+      scale: 0.026908999999999999,
+      suggested_collision: {
+         center: {
+            x: 0,
+            y: 0,
+            z: 0,
+         },
+         size: {
+            x: 1,
+            y: 1,
+            z: 1,
+         },
+         type: "Box",
+      },
+   },
+   version: "0.51:1",
+}

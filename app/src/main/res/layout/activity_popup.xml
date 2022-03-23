@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popupLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#00ffffff"
+    android:orientation="vertical">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:layout_gravity="center"
+        app:scale_base_height="147"
+        app:scale_base_width="310"
+        tools:ignore="MissingPrefix">
+
+        <ImageView
+            android:id="@+id/popup_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/popup_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:scale_height="147"
+            app:scale_width="310" />
+
+        <ImageView
+            android:id="@+id/gps01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:src="@drawable/gps01"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:scale_height="39"
+            app:scale_width="25"
+            app:scale_top="27"
+            app:scale_left="142"/>
+
+        <ImageView
+            android:id="@+id/gps02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="9dp"
+            android:src="@drawable/gps02"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView7"
+            app:scale_height="6"
+            app:scale_width="6"
+            app:scale_top="45"
+            app:scale_left="75" />
+
+        <ImageView
+            android:id="@+id/gps03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:src="@drawable/gps02"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4"
+            app:scale_height="6"
+            app:scale_width="6"
+            app:scale_top="45"
+            app:scale_left="96" />
+
+        <ImageView
+            android:id="@+id/gps04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:src="@drawable/gps02"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView5"
+            app:scale_height="6"
+            app:scale_width="6"
+            app:scale_top="45"
+            app:scale_left="117" />
+
+        <ImageView
+            android:id="@+id/gps05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/gps02"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:scale_height="6"
+            app:scale_width="6"
+            app:scale_top="45"
+            app:scale_left="186" />
+
+        <ImageView
+            android:id="@+id/gps06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:src="@drawable/gps02"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView7"
+            app:scale_height="6"
+            app:scale_width="6"
+            app:scale_top="45"
+            app:scale_left="207" />
+
+        <ImageView
+            android:id="@+id/gps07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:src="@drawable/gps02"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toTopOf="@+id/imageView8"
+            app:scale_height="6"
+            app:scale_width="6"
+            app:scale_top="45"
+            app:scale_left="228" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskrregular"
+            android:text="내 위치를 찾고 있습니다…"
+            android:textColor="#000"
+            android:gravity="center"
+            app:scale_textsize="15"
+            app:scale_width="310"
+            app:scale_height="30"
+            app:scale_top="75"
+            />
+
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</FrameLayout>

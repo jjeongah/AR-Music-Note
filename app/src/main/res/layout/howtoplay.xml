@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CC000000">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scale_base_height="645"
+        app:scale_base_width="400"
+        tools:ignore="MissingPrefix">
+
+        <Button
+            android:id="@+id/checkBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/normal_btn_bg"
+            android:fontFamily="@font/notosanskrregular"
+            android:text="시작!"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:scale_height="44"
+            app:scale_left="0"
+            app:scale_textsize="16"
+            app:scale_top="240"
+            app:scale_width="134" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:scale_height="120"
+            app:scale_left="-105"
+            app:scale_top="15"
+            app:scale_width="90"
+            app:srcCompat="@drawable/ic_tap_up" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:scale_height="120"
+            app:scale_left="105"
+            app:scale_top="15"
+            app:scale_width="90"
+            app:srcCompat="@drawable/ic_tap_up" />
+
+        <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:scale_height="120"
+        app:scale_left="-105"
+        app:scale_top="145"
+        app:scale_width="90"
+        app:srcCompat="@drawable/ic_tap_up" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:scale_height="120"
+            app:scale_left="105"
+            app:scale_top="145"
+            app:scale_width="90"
+            app:srcCompat="@drawable/ic_tap_up" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:scale_height="15"
+            app:scale_left="0"
+            app:scale_top="-60"
+            app:scale_width="15"
+            app:srcCompat="@drawable/ic_arrow" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/notosanskrmedium"
+            android:gravity="center"
+            android:text="거리 곳곳에 숨어있는 앨범을 찾아 터치하고\n재생되는 K-Pop 음악 리듬과 함께\n날아오는 음표들을 타이밍에 맞춰 터뜨려\n점수를 올려보세요!"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:scale_height="120"
+            app:scale_textsize="14"
+            app:scale_top="-120"
+            app:scale_width="310" />
+
+        <TextView
+            android:id="@+id/howtodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/notosanskrmedium"
+            android:gravity="center"
+            android:text="How To Do?"
+            android:textColor="#FF5D4D"
+            app:scale_height="50"
+            app:scale_textsize="16"
+            app:scale_top="-185"
+            app:scale_width="360" />
+
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</FrameLayout>

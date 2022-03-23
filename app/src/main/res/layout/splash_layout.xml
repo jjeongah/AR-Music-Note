@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    tools:context=".SplashActivity">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:scale_base_height="1800"
+        app:scale_base_width="1000"
+        tools:ignore="MissingPrefix">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/info_rectangle"
+            app:scale_width="900"
+            app:scale_height="1400"
+            app:scale_left="10"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/illust_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_width="700"
+            app:scale_height="400"
+            app:scale_top="-375"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/armusicnote_illust"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskrregular"
+            android:gravity="center"
+            android:text="로딩중"
+            android:textColor="#FF5D4E"
+            app:scale_width="500"
+            app:scale_height="100"
+            app:scale_textsize="45"
+            app:scale_top="-50"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/infoText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskrregular"
+            android:textAlignment="center"
+            android:text="잠시만 기다려 주세요..."
+            android:textColor="#000"
+            app:scale_width="750"
+            app:scale_height="400"
+            app:scale_textsize="40"
+            app:scale_top="210"
+            android:layout_gravity="center"/>
+
+        <ProgressBar
+            android:id="@+id/loadingbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:progress="25"
+            android:progressBackgroundTint="#000000"
+            android:progressTint="#FF6B6B"
+            android:layout_gravity="center"
+            app:scale_top="600"
+            app:scale_height="50"
+            app:scale_width="800"
+            app:scale_left="0"/>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</FrameLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_main"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/arCamera"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/musicUi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        app:scale_base_height="320"
+        app:scale_base_width="1000"
+        android:visibility="gone"
+        tools:ignore="MissingPrefix">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#CC070707"
+            app:scale_width="1000"
+            app:scale_height="180"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/nowPlaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now Playing..."
+            android:fontFamily="@font/notosanskrregular"
+            android:textAlignment="textStart"
+            android:textColor="#FF5D4D"
+            app:scale_height="70"
+            app:scale_top="145"
+            app:scale_left="30"
+            app:scale_textsize="30"
+            app:scale_width="300" />
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스코어 0 점"
+            android:fontFamily="@font/notosanskrmedium"
+            android:textColor="#FF5D4D"
+            android:bufferType="spannable"
+            app:scale_height="150"
+            app:scale_top="140"
+            app:scale_left="650"
+            app:scale_textsize="40"
+            app:scale_width="350" />
+
+        <!--
+        <TextView
+            android:id="@+id/scoreBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/notosanskrmedium"
+            android:textColor="#ffffff"
+            app:scale_height="120"
+            app:scale_top="150"
+            app:scale_left="750"
+            app:scale_textsize="60"
+            app:scale_width="400" />
+-->
+
+        <TextView
+            android:id="@+id/musicTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskrmedium"
+            android:text="Title"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            app:scale_height="140"
+            app:scale_textsize="35"
+            app:scale_top="185"
+            app:scale_left="30"
+            app:scale_width="350" />
+
+        <ProgressBar
+            android:id="@+id/musicBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:progress="25"
+            android:progressBackgroundTint="#000000"
+            android:progressTint="#FF6B6B"
+            app:scale_top = "120"
+            app:scale_height="20"
+            app:scale_width="1014"
+            app:scale_left="-7"/>
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:scale_width="210"
+            app:scale_height="210"
+            app:scale_top="80"
+            app:scale_left="375"
+            app:srcCompat="@drawable/ic_media_play" />
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</RelativeLayout>

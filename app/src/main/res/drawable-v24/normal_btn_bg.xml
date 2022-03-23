@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#00a2b1" /> <!-- 배경색#c2c2c2-->
+
+            <corners android:topLeftRadius="8dp"
+                android:topRightRadius="8dp"
+                android:bottomLeftRadius="8dp"
+                android:bottomRightRadius="8dp"  />
+        </shape>
+    </item>
+    <!-- selector가 눌리지 않았을때-->
+    <item android:state_pressed="false">
+        <shape >
+            <solid android:color="#FF5D4E" />
+
+            <corners  android:topLeftRadius="8dp"
+                android:topRightRadius="8dp"
+                android:bottomLeftRadius="8dp"
+                android:bottomRightRadius="8dp"/>
+        </shape>
+    </item>
+</selector>

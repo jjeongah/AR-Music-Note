@@ -1,0 +1,158 @@
+{
+   materials: [
+      {
+         name: "Mat.2",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "cd_texture_by_xchristina27x_d59a0cx-pre",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Mat",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Mat.1",
+         parameters: [
+            {
+               baseColor: [
+                  0.23000000000000001,
+                  0.23000000000000001,
+                  0.23000000000000001,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      file: "sampledata/album/NCT127_album.fbx",
+      name: "NCT127_album",
+      scale: 0.16666600000000001,
+      suggested_collision: {
+         center: {
+            x: 0,
+            y: 0,
+            z: 0,
+         },
+         size: {
+            x: 1,
+            y: 1,
+            z: 1,
+         },
+         type: "Box",
+      },
+   },
+   samplers: [
+      {
+         file: "C:\\Users\\Jinyeong\\Downloads\\NCt127 model.fbm\\cd_texture_by_xchristina27x_d59a0cx-pre.jpg",
+         name: "cd_texture_by_xchristina27x_d59a0cx-pre",
+         pipeline_name: "C:\\Users\\Jinyeong\\Downloads\\NCt127 model.fbm\\cd_texture_by_xchristina27x_d59a0cx-pre.jpg",
+      },
+   ],
+   version: "0.51:1",
+}

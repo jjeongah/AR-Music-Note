@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.example.musicnote"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    // card View사용 위함
+    implementation 'com.android.support:cardview-v7:28.0.0'
+
+    // 네이버 지도 관련
+    implementation 'com.naver.maps:map-sdk:3.8.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    // ar관련
+    implementation "com.google.ar.sceneform:core:1.0.0"
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.0.0"
+
+    // scaleable layout
+    implementation 'com.ssomai:android.scalablelayout:2.1.6'
+
+    // snackbar 관련
+    implementation 'com.android.support:design:28.0.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+/*
+sceneform.asset('sampledata/album/EXO_album.fbx', // 'Source Asset Path' specified during import.
+        'default',                            // 'Material Path' specified during import.
+        'sampledata/album/EXO_album.sfa',         // '.sfa Output Path' specified during import.
+        'src/main/res/raw/exo_album')              // '.sfb Output Path' specified during import.
+*/
+/*
+sceneform.asset('sampledata/album/engcdmodel.obj', // 'Source Asset Path' specified during import.
+        'default',                            // 'Material Path' specified during import.
+        'sampledata/album/engcdmodel.sfa',         // '.sfa Output Path' specified during import.
+        'src/main/res/raw/exo_album')              // '.sfb Output Path' specified during import.
+*/
+/*
+sceneform.asset('sampledata/album/engcdmodel.obj', // 'Source Asset Path' specified during import.
+        'default',                            // 'Material Path' specified during import.
+        'sampledata/album/engcdmodel.sfa',         // '.sfa Output Path' specified during import.
+        'src/main/res/raw/nct_model')        // '.sfb Output Path' specified during import.
+*/
+/*
+sceneform.asset('sampledata/album/engcdmodel.obj', // 'Source Asset Path' specified during import.
+        'default',                            // 'Material Path' specified during import.
+        'sampledata/album/engcdmodel.sfa',         // '.sfa Output Path' specified during import.
+        'src/main/res/raw/redvelvet_album')        // '.sfb Output Path' specified during import.
+ */

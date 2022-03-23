@@ -1,0 +1,13 @@
+# Blender MTL File: '2.blend'
+# Material Count: 1
+
+newmtl sun
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800002 0.465715 0.022692
+Ks 0.000000 0.000000 0.000000
+Ke 0.080000 0.046571 0.002269
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd PUSHILIN_sun.png

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#212121">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:scale_base_height="1800"
+        app:scale_base_width="1000"
+        tools:ignore="MissingPrefix">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskrmedium"
+            android:text="AR로 즐기는\n부산원아시아\n페스티벌"
+            android:bufferType="spannable"
+            android:textColor="#fff"
+            app:scale_height="245"
+            app:scale_textsize="48"
+            app:scale_top="265"
+            app:scale_width="320"
+            app:scale_left="620"/>
+
+        <ImageView
+            android:id="@+id/bof_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bof_logo"
+            app:scale_height="300"
+            app:scale_top="210"
+            app:scale_width="500"
+            app:scale_left="60"/>
+
+        <ImageView
+            android:id="@+id/makdaegi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/makdaegi"
+            app:scale_height="240"
+            app:scale_top="260"
+            app:scale_width="40"
+            app:scale_left="565"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright © 성균관대학교 산학협력단 All Rights Reserved."
+            android:fontFamily="@font/notosanskrregular"
+            android:textColor="#fff"
+            android:textSize="11dp"
+            android:gravity="center"
+            app:scale_width="1000"
+            app:scale_height="70"
+            app:scale_textsize="33"
+            app:scale_top="1650">
+
+        </TextView>
+
+
+        <ImageButton
+            android:id="@+id/musicnote_btn"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/musicnote_btn_bg"
+            android:src="@drawable/musicnote_btn_illust"
+            app:scale_height="400"
+            app:scale_top="0"
+            app:scale_width="930" />
+
+        <TextView
+            android:id="@+id/musicnote_btn_text"
+            android:layout_width="140dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#FF5D4D"
+            android:fontFamily="@font/notosanskrregular"
+            android:clickable="false"
+            android:textStyle="bold"
+            android:bufferType="spannable"
+            android:text="#두근두근_행사장_가는_길\nAR 음악노트"
+            app:scale_height="400"
+            app:scale_textsize="50"
+            app:scale_top="0"
+            app:scale_width="950" />
+
+        <ImageButton
+            android:id="@+id/gamemeeting_btn"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/musicnote_btn_bg"
+            android:src="@drawable/gamemeeting_btn_illust"
+            app:scale_height="400"
+            app:scale_top="450"
+            app:scale_width="930" />
+
+        <TextView
+            android:id="@+id/game_btn_text"
+            android:layout_width="140dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#FF5D4D"
+            android:fontFamily="@font/notosanskrregular"
+            android:clickable="false"
+            android:textStyle="bold"
+            android:bufferType="spannable"
+            android:text="#몸은_멀리_마음은_가까이\nAR 겜미팅"
+            app:scale_height="400"
+            app:scale_textsize="50"
+            app:scale_top="450"
+            app:scale_width="950" />
+
+
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    >
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:scale_base_height="1800"
+        app:scale_base_width="1000"
+        tools:ignore="MissingPrefix">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/info_rectangle"
+            app:scale_width="900"
+            app:scale_height="1400"
+            app:scale_left="10"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/illust_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_width="700"
+            app:scale_height="400"
+            app:scale_top="-375"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/armusicnote_illust"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskrregular"
+            android:gravity="center"
+            android:text="AR 음악노트란?"
+            android:textColor="#FF5D4E"
+            app:scale_width="500"
+            app:scale_height="100"
+            app:scale_textsize="45"
+            app:scale_top="-50"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/infoText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskrregular"
+            android:textAlignment="center"
+            android:text="BOF 행사장까지 가는 발걸음이 즐거울 수\n있도록, 화면에 등장하는 K-Pop 앨범을\n터치해 각 음악의 하이라이트를 감상하며\n행사장에 도착할 수 있게 길을 안내해주는\n서비스입니다."
+            android:textColor="#000"
+            app:scale_width="750"
+            app:scale_height="400"
+            app:scale_textsize="40"
+            app:scale_top="210"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/normal_btn_bg"
+            android:text="내 위치 검색하기"
+            android:fontFamily="@font/notosanskrregular"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:scale_width="750"
+            app:scale_height="120"
+            app:scale_textsize="40"
+            app:scale_top="480"
+            android:layout_gravity="center"/>
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</FrameLayout>

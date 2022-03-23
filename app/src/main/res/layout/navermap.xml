@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/navermap_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        app:scale_base_height="1850"
+        app:scale_base_width="1000"
+        tools:ignore="MissingPrefix">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.naver.maps.map.MapFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            app:scale_height="390"
+            app:scale_left="35"
+            app:scale_top="35"
+            app:scale_width="290" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/mapImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:src="@drawable/mapimg"
+            android:scaleType="fitXY"
+            app:scale_height="390"
+            app:scale_left="35"
+            app:scale_top="35"
+            app:scale_width="290" />
+
+        <ImageView
+            android:id="@+id/mapBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:src="@drawable/map_border"
+            app:scale_height="400"
+            app:scale_left="30"
+            app:scale_top="30"
+            app:scale_width="300" />
+
+        <FrameLayout
+            android:id="@+id/panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:scale_height="1850"
+            app:scale_left="-250"
+            app:scale_top="0"
+            app:scale_width="200"
+            > <!-- scale_left -75까지 -->
+
+            <ImageView
+                android:id="@+id/markerPanel"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-115dp"
+                android:layout_gravity="center"
+                android:background="@drawable/scroll_bg"
+                android:elevation="20dp"
+                android:layout_centerInParent="true"
+                />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="650dp"
+                android:layout_gravity="center"
+                android:scrollbars="none"
+                android:overScrollMode="never"
+                app:scale_height="1200"
+                app:scale_left="0"
+                app:scale_top="50"
+                app:scale_width="250"
+                android:elevation="20dp"
+                android:clipChildren="false">
+
+                <FrameLayout
+                    android:id="@+id/scrollLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="26dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/marker1"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="50dp"
+                            android:src="@drawable/exo_icon" />
+
+                        <ImageView
+                            android:id="@+id/line1"
+                            android:layout_width="2dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker2"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nct_icon" />
+
+                        <ImageView
+                            android:id="@+id/line2"
+                            android:layout_width="2dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker3"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/redvelvet_icon" />
+
+                        <ImageView
+                            android:id="@+id/line3"
+                            android:layout_width="2dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker4"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/blackpink_icon" />
+
+                        <ImageView
+                            android:id="@+id/line4"
+                            android:layout_width="2dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker5"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/bts_icon" />
+
+                        <ImageView
+                            android:id="@+id/line5"
+                            android:layout_width="2dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker6"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/exo_icon" />
+
+                        <ImageView
+                            android:id="@+id/line6"
+                            android:layout_width="2dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker7"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nct_icon" />
+
+                        <ImageView
+                            android:id="@+id/line7"
+                            android:layout_width="2dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker8"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/redvelvet_icon" />
+
+                        <ImageView
+                            android:id="@+id/line8"
+                            android:layout_width="2dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker9"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/bts_icon" />
+
+                        <ImageView
+                            android:id="@+id/line9"
+                            android:layout_width="5dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/dot_line" />
+
+                        <ImageView
+                            android:id="@+id/marker10"
+                            android:layout_width="40dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/bof_logo" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/checkCircle"
+                        android:layout_width="37dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/circle"
+                        android:visibility="invisible"/>
+
+                </FrameLayout>
+            </ScrollView>
+        </FrameLayout>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+</LinearLayout>

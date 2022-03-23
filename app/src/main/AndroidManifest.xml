@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.musicnote">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <!--<uses-permission android:name="android.permission.VIBRATE" /> -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".InfoActivity"
+            >
+        </activity>
+
+        <activity android:name=".SplashActivity">
+
+        </activity>
+
+        <activity android:name=".IntroActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- //응용프로그램의 진입 -->
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- //최상위 어플리케이션으로 표시해야함을 알리는 것 -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+        android:name=".PopupActivity2"
+        android:screenOrientation="portrait"
+        android:theme="@style/popupTheme"
+            tools:ignore="LockedOrientationActivity" />
+
+
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="jn7zevbciq" />
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
+        <activity android:name=".MainActivity" />
+
+    </application>
+
+</manifest>
