@@ -13,6 +13,7 @@ This project is for SK Planet Industry Cooperation Project (2020.3~ 2020.7)
 
 ## UI/UX
 <img src="https://user-images.githubusercontent.com/65378914/159787317-9a59442c-8e0e-4dd1-8f3d-4aea55c5039c.png" width="70%"/>
-<img src="https://user-images.githubusercontent.com/65378914/159787927-af2b6948-a235-46c6-9120-3e4627293b44.png" width="70%"/>
+(1) User can choos between AR Music Note or AR Game meeting. AR Game meeting is a game made by another team that allows users to enjoy simple games such as Chamchamcham and Rock Paper Scissors with an idol by recognizing the idol logo panel installed at the event site on the mobile phone.
+<img src="https://user-images.githubusercontent.com/65378914/159788804-9354e596-0114-4fc9-b950-2d9ff5c5baab.png" width="70%"/>
 
 ## History
