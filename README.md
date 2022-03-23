@@ -13,8 +13,6 @@ This project is for SK Planet Industry Cooperation Project (2020.3~ 2020.7)
 (4) When a user arrives at the festival and visits the booth, prizes are awarded according to the score.
 
 ## UI/UX
-<img src="https://user-images.githubusercontent.com/65378914/159786902-1e87a2cf-cf83-4ee8-92a2-ae34f7703910.png"  width="300" height="400"/>
-<img src="https://user-images.githubusercontent.com/65378914/159786914-fdde9507-c136-41cb-bf11-a273c2b7641e.png"  width="300" height="400"/>
-<img src="https://user-images.githubusercontent.com/65378914/159786920-8360a11b-b57e-4272-9d56-ffefa01ad1ed.png"  width="300" height="400"/>
+<img src="https://user-images.githubusercontent.com/65378914/159787317-9a59442c-8e0e-4dd1-8f3d-4aea55c5039c.png"  width="300" height="400"/>
 
 ## History
