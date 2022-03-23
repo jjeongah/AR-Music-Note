@@ -18,9 +18,17 @@ This project is for SK Planet Industry Cooperation Project (2020.3~ 2020.7)
 (2) If user clicked 'AR Music Note', A brief description of the game appears.   
 (3) Find user's location for a few seconds.   
 
-<img src="https://user-images.githubusercontent.com/65378914/159788804-9354e596-0114-4fc9-b950-2d9ff5c5baab.png" width="70%"/>
+<img src="https://user-images.githubusercontent.com/65378914/159788804-9354e596-0114-4fc9-b950-2d9ff5c5baab.png" width="90%"/>
 
 (4) In the upper left corner of the game screen, there is a map that shows the user's location. On the map, the icon the user needs to follow is indicated by a green pin.   
 (5) When the user arrives at the festival location, the game stops and the guidance ends.
 
+## Project Schedule
+#### History
 ## History
+| Period                          | Tasks                 |
+|--------------------------------|----------------------|
+| May  | Mobile, outdoor AR advertisement case study (Marker-based, Marker-less-based, Location-based)|
+| June   | ~2021-11-28 |
+| July   | ~2021-12-2 |
+| August  | ~2021-12-11 |
