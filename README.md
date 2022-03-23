@@ -1,5 +1,5 @@
 # AR-Music-Note
-This project is for SK Planet Industry Cooperation Project (2020.3~ 2020.8)
+This project is for SK Planet Industry Cooperation Project (2020.4~ 2020.8)
 
 ## A Brief Overview
 - Our goal is to promote the Busan One Asia Festival (BOF) through AR events
