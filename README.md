@@ -28,9 +28,7 @@ This project is for SK Planet Industry Cooperation Project (2020.3~ 2020.7)
 ## History
 | Period                          | Tasks                 |
 |--------------------------------|----------------------|
-| May  | (1) Mobile, outdoor AR advertisement case study (Marker-based, Marker-less-based, Location-based)
-(2) AR Platform Research and Practice
-(3) Kickoff Meeting|
+| May  | (1) Mobile, outdoor AR advertisement case study (Marker-based, Marker-less-based, Location-based)(2) AR Platform Research and Practice (3) Kickoff Meeting|
 | June   | AR advertisement ideation |
 | July   | intensive work |
 | August  | 1st implementation/demonstration |
